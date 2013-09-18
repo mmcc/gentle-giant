@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Being the Gentle Giant</title>
+
+		<meta name="description" content="Help people integrate with your API for the long haul">
+		<meta name="author" content="Matthew McClure">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/beige.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+
+		<!-- <link rel="stylesheet" href="css/print/pdf.css" type="text/css" media="print"> -->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Being the Gentle Giant</h1>
+					<h3>Helping people integrate for the <span class="text pink">long haul</span></h3>
+					<p><a href="http://twitter.com/matt_mcclure" parent="_blank">@matt_mcclure</a></p>
+				</section>
+
+				<section>
+					<img src="images/brightcove.png" alt="Zencoder"/>
+					<img src="images/zencoder.png" alt="Zencoder"/>
+					<img src="images/videojs.png" alt="Zencoder"/>
+				</section>
+
+				<section>
+					<h2>What makes an API <span class="text blue">good</span>?</h2>
+					<ol>
+						<li class="fragment"><code>Usefulness</code></li>
+						<li class="fragment"><em>Design</em></li>
+						<li class="fragment"><strong>Support</strong></li>
+					</ol>
+				</section>
+
+				<section>
+					<h2>Getting people to <span class="text green">use</span> an API</h2>
+					<ol>
+						<li class="fragment">Usefulness, design, support</li>
+						<li class="fragment">Good enough (parity with DIY)</li>
+					</ol>
+				</section>
+
+				<section>
+					<h2>Deciding on an API is a <span class="text pink">big deal</span></h2>
+					<p>
+						APIs can help developers focus on their product's core competency
+						<span class="fragment">...but takes control out of their hands</span>
+					</p>
+					<aside class="notes">
+						Issues with that API can still have drastic negative affects (example)
+					</aside>
+				</section>
+
+				<section>
+					<h2>Taking the job <span class="text blue">seriously</span></h2>
+					<p>Frequently, developers use an API because they're <em>unable</em> to perform the task</p>
+					<img class="fragment" width="150" height="auto" src="images/icon-credit-card.png"/>
+					<img class="fragment" width="150" height="auto" src="images/icon-phone.png"/>
+					<aside class="notes">
+						<ul>
+							<li>Developers depend on API to function</li>
+  						<li>API stability is important, but API *integration* stability is even more so</li>
+  					</ul>
+					</aside>
+				</section>
+
+				<section>
+					<section>
+						<h2>Helping developers integrate</h2>
+						<p>Recognize that developers are going to vary wildly in skill</p>
+					</section>
+					<section>
+						<h2>Easy Wins are fun</h2>
+						<div class="box half">
+							<ul>
+								<li>Everyone likes an easy win</li>
+								<li class="fragment">Get to see basic usage examples</li>
+								<li class="fragment">Get a quick feel for the service</li>
+								<li class="fragment">Service gets to show off cool features</li>
+						</div>
+						<div class="box half">
+							<image width="100%" height="auto" src="images/gif-happy-carlton.gif"/>
+						</div>
+
+						<aside class="notes">
+							Don't just give them the easy win to hook them, show what a real integration looks like (Zencoder example)
+						</aside>
+					</section>
+					<section>
+						<h2>Easy ends quick</h2>
+						<div class="box half">
+							<ul>
+								<li>Quick hacks never get refactored</li>
+								<li class="fragment">Never get a chance to show best practices</li>
+								<li class="fragment">Doesn't exclude non-fits</li>
+								<li class="fragment">"As for what the language is in, its php with java of course" - User</li>
+							</ul>
+						</div>
+						<div class="box half">
+							<image width="100%" height="auto" src="images/gif-yoga.gif"/>
+						</div>
+					</section>
+				</section>
+
+				<section>
+					<h2>Talk about best practices</h2>
+					<ul>
+						<li class="fragment">Guides</li>
+						<li class="fragment">Blog posts</li>
+						<li class="fragment">Documentation</li>
+						<li class="fragment">Support</li>
+						<li class="fragment">Dinner with their family</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Provide integration libraries</h2>
+					<p>Integration libraries should just <span class="text green">get out of the way</span></p>
+					<aside class="notes">
+						<ul>
+							<li>don't try to do or abstract too much</li>
+							<li>make sure it's easily maintainable. (minor API changes shouldn't break libraries)</li>
+							<li>Zencoder libraries examples</li>
+						</ul>
+					</aside>
+				</section>
+
+				<section>
+					<h2>Provide Feedback</h2>
+					<p>Have developers' backs...<span class="text pink">be proactive</span>.</p>
+					<aside class="notes">
+						<ul>
+							<li>Don't just wait for things to break and them to send a support email</li>
+							<li>If you see potential issues or shortcomings in how they're using the API, *let them know*</li>
+					</aside>
+				</section>
+
+				<section>
+					<section>
+						<h2>Post-integration world</h2>
+						<p>Once a customer is up and running, real support begins</p>
+					</section>
+					<section>
+						<h2>How we like to think support will be</h2>
+						<img src="images/happy-support.jpeg"/>
+					</section>
+					<section>
+						<h2>But really...</h2>
+						<img src="images/gif-facepalm.gif"/>
+					</section>
+					<section>
+						<h2>Be up front about downtime or potentially breaking changes</h2>
+						<ul>
+							<li>Let users know as soon as you confirm unscheduled downtime will occur</li>
+							<li>Eventually you'll have to deploy a chance that will break things...</li>
+							<ul class="fragment">
+								<li>Find all potentially affected users</li>
+								<li>Test recent requests</li>
+								<li>Contact them<span class="fragment">, contact them</span><span class="fragment">, contact them</span></li>
+							</ul>
+						</ul>
+					</section>
+					<section>
+						<h2>Ask for feedback</h2>
+						<ul>
+							<li>Allows you to find annoyances, not just bugs</li>
+							<li>Lets developers know you care</li>
+						</ul>
+						<img src="images/zencoder-carebear.png" class="fragment"/>
+					</section>
+				</section>
+
+					<aside class="notes">
+						<ul>
+							<li>Let users know as soon as you confirm unscheduled downtime will occur</li>
+							<li>If you have to deploy changes that could break certain things (JSON / YAML example)</li>
+							<ul>
+								<li>Find all the users that have used those features in the last reasonable time period</li>
+								<li>Test their recent requests against the new changes</li>
+								<li>Contact them, contact them, contact them.</li>
+							</ul>
+						</ul>
+					</aside>
+				</section>
+
+				<section>
+					<h2>Take <span class="text blue">pride</span></h2>
+					<p>The world of open APIs is <strong>amazing</strong>.</p>
+				</section>
+
+
+				<section>
+					<h1>Questions?</h1>
+					<h3><a href="http://twitter.com/matt_mcclure" parent="_blank">@matt_mcclure</a></h3>
+					<img width="25%" height="auto" src="images/brightcove.png"/>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: 'beige', // available themes are in /css/theme
+				transition: 'linear', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
